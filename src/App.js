@@ -32,7 +32,7 @@ function App() {
     else {
 
     <div className="App">
-      Data has been loaded
+      Data has been loaded text
     </div>
   );
 }
