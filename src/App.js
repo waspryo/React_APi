@@ -1,40 +1,40 @@
-import React from 'react';
+// import React from 'react';
 
-function App() {
+// function App() {
 
-  constructor(prpps) {
-    super(props);
-    this.state = {
-      items: [],
-      isLoaded: false,
-    }
-  }
+//   constructor(prpps) {
+//     super(props);
+//     this.state = {
+//       items: [],
+//       isLoaded: false,
+//     }
+//   }
 
-  componemtDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json())
-    .then(json => {
-      this.setState({
-        isLoaded: true,
-        items: json,
-      })
-    })
-  }
+//   componemtDidMount() {
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//     .then(res => res.json())
+//     .then(json => {
+//       this.setState({
+//         isLoaded: true,
+//         items: json,
+//       })
+//     })
+//   }
 
-  return (
+//   return (
 
-    var { isLoaded, items } = this.state;
+//     var { isLoaded, items } = this.state;
 
-    if (!isLoaded) {
-      return <div>Loading...</div>;
-    }
+//     if (!isLoaded) {
+//       return <div>Loading...</div>;
+//     }
 
-    else {
+//     else {
 
-    <div className="App">
-      Data has been loaded text
-    </div>
-  );
-}
+//     <div className="App">
+//       Data has been loaded
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
